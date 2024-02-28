@@ -13,7 +13,7 @@
 
  console.log('import.meta.env', import.meta.env)
  
- axios.defaults.baseURL = import.meta.env.MODE == 'development' ? '//localhost:8888/api/v1' : '//mall/api/v1'
+ axios.defaults.baseURL = import.meta.env.MODE == 'development' ? '//mall.shanghai.works/api/v1' : '//mall.shanghai.works/api/v1'
  axios.defaults.withCredentials = true
  axios.defaults.headers['X-Requested-With'] = 'XMLHttpRequest'
  axios.defaults.headers['token'] = localStorage.getItem('token') || ''
