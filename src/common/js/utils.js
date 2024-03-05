@@ -4308,7 +4308,7 @@ export const prefix = (url) => {
   if (url && url.startsWith('http')) {
     return url
   } else {
-    url = `http://mall.shanghai.works${url}`
+    url = `https://mall.shanghai.works${url}`
     return url
   }
 }
