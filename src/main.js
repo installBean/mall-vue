@@ -51,7 +51,7 @@ app.config.globalProperties.$filters = {
     if (url && url.startsWith('http')) {
       return url
     } else {
-      url = `https://mall.shanghai.works${url}`
+      url = `https://mall-admin.shanghai.works/${url}`
       return url
     }
   }
